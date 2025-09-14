@@ -105,7 +105,7 @@ image:
   pullSecrets: []
   ## Enable debug mode
   ##
-  debug: true
+  debug: false
 ## @section Odoo Configuration parameters
 ## Odoo settings based on environment variables
 ## ref: https://github.com/bitnami/containers/tree/main/bitnami/odoo#environment-variables
@@ -129,7 +129,7 @@ odooDatabaseFilter: .*
 ## @param loadDemoData Whether to load demo data for all modules during initialization
 ## ref: https://github.com/bitnami/containers/tree/main/bitnami/odoo#configuration
 ##
-loadDemoData: false
+loadDemoData: true
 ## @param customPostInitScripts Custom post-init.d user scripts
 ## ref: https://github.com/bitnami/containers/tree/main/bitnami/odoo
 ## NOTE: supported formats are `.sh`, `.sql` or `.php`
