@@ -443,11 +443,11 @@ initContainers: []
 service:
   ## @param service.type Odoo service type
   ##
-  type: LoadBalancer
+  ##type: LoadBalancer
   ## @param service.ports.http Odoo service HTTP port
-  ##
+  type: ClusterIP
   ports:
-    http: 80
+    http: 8069
   ## @param service.nodePorts.http NodePort for the Odoo HTTP endpoint
   ## NOTE: choose port between <30000-32767>
   ##
