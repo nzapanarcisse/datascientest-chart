@@ -119,7 +119,7 @@ odooEmail: user@example.com
 ## Defaults to a random 10-character alphanumeric string if not set
 ## ref: https://github.com/bitnami/containers/tree/main/bitnami/odoo#configuration
 ##
-odooPassword: ""
+odooPassword: "odoo"
 ## @param odooSkipInstall Skip Odoo installation wizard
 ##
 odooSkipInstall: false
