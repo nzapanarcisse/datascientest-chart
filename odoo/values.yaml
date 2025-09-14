@@ -733,7 +733,7 @@ postgresql:
   enabled: true
   auth:
     username: bn_odoo
-    password: ""
+    password: odoo
     database: bitnami_odoo
     existingSecret: ""
   architecture: standalone
