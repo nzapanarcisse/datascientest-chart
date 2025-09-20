@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: registry.gitlab.com/nonlucratif/terraform-k8s-gitlabci-datascientest
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
   tag: "master"
 
 service:
