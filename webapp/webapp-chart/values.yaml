@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: registry.gitlab.com/nonlucratif/terraform-k8s-gitlabci-datascientest
   pullPolicy: Always
-  tag: "master"
+  tag: 22e672f
 
 service:
   type: NodePort          # Type de service (NodePort, ClusterIP, LoadBalancer, etc.)
