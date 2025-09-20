@@ -443,16 +443,17 @@ initContainers: []
 service:
   ## @param service.type Odoo service type
   ##
-  ##type: LoadBalancer
-  ## @param service.ports.http Odoo service HTTP port
-  type: ClusterIP
+
+  #type: LoadBalancer
+  type: NodePort
+
   ports:
     http: 8069
   ## @param service.nodePorts.http NodePort for the Odoo HTTP endpoint
   ## NOTE: choose port between <30000-32767>
   ##
   nodePorts:
-    http: ""
+    http: 30089
   ## @param service.sessionAffinity Control where client requests go, to the same pod or round-robin
   ## Values: ClientIP or None
   ## ref: https://kubernetes.io/docs/concepts/services-networking/service/

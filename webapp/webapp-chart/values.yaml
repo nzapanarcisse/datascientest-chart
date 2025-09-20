@@ -1,0 +1,14 @@
+replicaCount: 1
+
+image:
+  repository: nginx
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: NodePort          # Type de service (NodePort, ClusterIP, LoadBalancer, etc.)
+  port: 80                # Port sur lequel le service sera exposé
+  nodePort: 30080
+
+ingress:
+  enabled: false
