@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: webapp1
-          image: registry.gitlab.com/nonlucratif/terraform-k8s-gitlabci-datascientest:master
+          image: datascientestuser/webapp:latest
           ports:
             - containerPort: 80

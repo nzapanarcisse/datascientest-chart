@@ -1,7 +1,7 @@
 replicaCount: 1
 
 image:
-  repository: registry.gitlab.com/nonlucratif/terraform-k8s-gitlabci-datascientest
+  repository: datascientestuser/webapp
   pullPolicy: Always
   tag: 22e672f
 
