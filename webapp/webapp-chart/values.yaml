@@ -3,7 +3,7 @@ replicaCount: 1
 image:
   repository: datascientestuser/webapp
   pullPolicy: Always
-  tag: b89190e
+  tag: 395a534
 
 service:
   type: NodePort          # Type de service (NodePort, ClusterIP, LoadBalancer, etc.)
